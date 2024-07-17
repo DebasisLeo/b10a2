@@ -300,18 +300,23 @@ background: rgb(34, 34, 34);
   
   }
   .banner-img{
-   margin-left: 50px;
+   margin-left: 10px;
   }
   .up{
     width: 155px;
+    height: 72px;
     transform: translate(190px,-550px);
+  }
+  .sbut{
+    padding: 15px;
   }
   body{
     margin-left: 10px;
   }
   .down{
+    height: 72px;
     width: 155px;
-    transform: translate(-50px,-480px);
+    transform: translate(-10px,-460px);
   }
   .card-main{
     grid-template-columns: 1fr;
