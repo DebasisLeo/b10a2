@@ -300,16 +300,18 @@ background: rgb(34, 34, 34);
   
   }
   .banner-img{
-   margin-left: 100px;
+   margin-left: 50px;
   }
   .up{
+    width: 155px;
     transform: translate(190px,-550px);
   }
   body{
     margin-left: 10px;
   }
   .down{
-    transform: translate(-100px,-480px);
+    width: 155px;
+    transform: translate(-50px,-480px);
   }
   .card-main{
     grid-template-columns: 1fr;
