@@ -248,7 +248,7 @@ background: rgb(34, 34, 34);
   display: none;
 }
 .f2c{
-  width: 443px;
+  max-width: 443px;
 }
 .f2i{
   width: 366px;
@@ -289,7 +289,7 @@ background: rgb(34, 34, 34);
     display: none;
   }
   .but{
-    margin-left: 40px;
+    margin-left: 20px;
   }
   .get-body,.shape{
     font-size: 2.25rem;
