@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+CU:wght@100..400&display=swap');
 .inter {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
     font-variation-settings: "slnt" 0;
+}
+.mia{
+
+ 
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  
+
+
 }
 
 body {
@@ -45,7 +55,8 @@ font-weight: 900;
     font-weight: 800;
 }
 .calc{
-  text-align: center;
+  max-width: 671px;
+  margin: 20px auto;
 }
 .get-body {
     color: rgb(255, 255, 255);
@@ -108,6 +119,7 @@ header{
     margin-right: 20px;
     background: rgb(230, 83, 60);
     cursor: pointer;
+    margin-top: 10px;
 }
 .pxbut{
   display: none;
@@ -142,11 +154,6 @@ header{
     padding: 10px;
 }
 
-.shape {
-    color: rgb(255, 255, 255);
-    font-weight: 400;
-    font-size: 4.874rem;
-}
 
 nav {
     max-width: 1060px;
@@ -164,7 +171,7 @@ nav {
 .banner-con {
     max-width: 520px;
     margin: 0 auto;
-    border: 2px solid orange;
+ 
 }
 
 .banner-img>.img {
@@ -175,7 +182,7 @@ nav {
 .banner-img {
     max-width: 349px;
     max-height: 580px;
-    border: 2px solid orange;
+   
 }
 .hc{
   color: rgb(255, 255, 255);
@@ -199,7 +206,7 @@ font-weight: 400;
 
 }
 
-.banner {
+.banner { border: 2px solid orange;
     max-width: 1060px;
     margin: 0 auto;
     display: flex;
@@ -211,7 +218,7 @@ font-weight: 400;
    
     width: 193px;
     
-    border: 2px solid orange;
+   
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
@@ -226,7 +233,7 @@ font-weight: 400;
   align-items: center;
   
  width: 193px;
-    border: 2px solid orange;
+   
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
@@ -249,7 +256,7 @@ font-weight: 400;
   text-align: center;
   max-width: 1060px;
   margin: 30px auto;
-  border: 2px solid orange;
+
  
 }
 .f1h4{
@@ -280,7 +287,7 @@ font-weight: 600;
   margin: 0 auto;
   display: flex;
  
-  border: 2px solid orange;
+ 
   padding: 30px 30px;
   justify-content: space-evenly;
   align-items: center;
@@ -304,7 +311,7 @@ background: rgb(34, 34, 34);
   border-collapse: collapse;
 }
 td,th{
-  border: 1px solid black;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 10px;
 }
 caption{
@@ -315,18 +322,19 @@ caption{
   max-width: 1440px;
   text-align: center;
   justify-content: space-evenly;
-  border: 2px solid orange;
+  background: rgb(34, 34, 34);
+
 }
 .calc-chart{
   width: 310px;
   margin: 30px auto;
-  border: 2px solid orange;
+ 
   padding-top: 30px;
 }
 .calc-bmi{
   max-width: 577px;
   margin: 30px auto;
-  border: 2px solid orange;
+
   text-align: start;
 }
 .calc-bmi>input{
@@ -352,7 +360,7 @@ border-style: none;
 .f4{
   max-width: 1060px;
   margin: 20px auto;
-  border: 2px solid orange;
+
 }
 .mot{
   width: 671px;
@@ -363,7 +371,7 @@ border-style: none;
   display: grid;
   grid-template-columns: repeat(3,1fr);
 
-  border: 2px solid orange;
+  
   border-radius: 18px;
 
 background: rgba(255, 255, 255, 0.1);
@@ -373,7 +381,7 @@ background: rgba(255, 255, 255, 0.1);
   width: 326px;
   height: 272px;
   position: relative;
-  border: 2px solid orange;
+ 
   border-radius: 20px;
   margin: 10px;
 
@@ -420,16 +428,17 @@ footer{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
- 
+ max-width: 1060px;
+ margin: 20px auto;
 height: 600px;
-border: 2px solid orange;
+
 display: flex;
 justify-content: space-around;
 align-items: center;
 }
 .f52{
   display: flex;
-  transform: translate(150px,200px);
+  transform: translate(80px,200px);
   justify-content: space-between;
   gap: 20PX;
 }
@@ -516,6 +525,7 @@ align-items: center;
   }
   .foot{
     flex-direction: column;
+    align-items: start;
   }
   .calc-bmi>input{
   width:95%;
