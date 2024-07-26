@@ -206,7 +206,7 @@ font-weight: 400;
 
 }
 
-.banner { border: 2px solid orange;
+.banner {
     max-width: 1060px;
     margin: 0 auto;
     display: flex;
